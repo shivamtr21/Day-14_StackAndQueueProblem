@@ -4,20 +4,14 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welecom to the Stack And Queue Problem");
 
+            Console.WriteLine("Welcome to Stack And Queue Program!");
             Console.WriteLine("#####################");
 
-            StackWithLinkedList obj = new StackWithLinkedList();
-            obj.push(70);
-            obj.push(30);
-            obj.push(56);
-            obj.Display();
-            obj.Display();
-            //obj.Peek();
-            Console.WriteLine("After pop operation:");
-            //obj.Pop();
-             
+            QueueWithLinkedList obj = new QueueWithLinkedList();
+            obj.Enqueue(56);
+            obj.Enqueue(30);
+            obj.Enqueue(70);
             obj.Display();
         }
     }
