@@ -13,6 +13,12 @@
             obj.push(30);
             obj.push(56);
             obj.Display();
+            obj.Display();
+            //obj.Peek();
+            Console.WriteLine("After pop operation:");
+            //obj.Pop();
+             
+            obj.Display();
         }
     }
 }
